@@ -1,0 +1,786 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.div1 {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    background-color: white;
+
+
+
+}
+a{
+    text-decoration: none;
+
+}
+.fa-solid fa-computer-mouse:active{
+    background-color: #3232dc;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#div2 {
+
+    margin-left: 250px;
+    margin-top: 25px;
+
+}
+
+#a {
+    margin-block-end: 10px;
+    color: black;
+}
+#a:hover{
+    color: #5757e0;
+}
+
+#div3 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    margin-left: 250px;
+    margin-top: 25px;
+    align-items: center;
+
+}
+
+#homesection {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    row-gap: 10px;
+}
+
+#inside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    padding-top: 130px;
+
+
+}
+
+#button1 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    padding-bottom: 23px;
+    background-color: #5757e0;
+    color: azure;
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    height: 59px;
+    width: 152px;
+    margin: 25px;
+    font-weight: 20px
+    
+}
+
+#first {
+
+    font-family: "DM Sans", sans-serif;
+    font-size: 19px;
+    color: #6a6a7c;
+    line-height: 28px;
+    margin-top: -25px;
+    font-weight: 600;
+    padding-top: 69px;
+
+
+
+}
+
+#head {
+    font-family: "DM Sans", sans-serif;
+    font-size: 37px;
+    width: 350px;
+    margin-top: 121px;
+
+
+}
+
+#para {
+    font-family: "DM Sans", sans-serif;
+    font-size: 19px;
+    color: #6a6a7c;
+    line-height: 26px;
+    margin-top: 22px;
+
+}
+
+#assabh {
+    font-size: 18px;
+
+}
+
+#me {
+    height: 300px;
+    margin-top: 70px;
+    margin-right: -58px;
+    border-top-left-radius: 282px;
+    border-bottom-left-radius: 175px;
+    border-top-right-radius: 280px;
+    border-bottom-right-radius: 162px;
+}
+
+
+#div4 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: -47px;
+}
+
+#scroll {
+    font-family: "DM Sans", sans-serif;
+    margin-left: 155px;
+    margin-top: 83px;
+}
+
+#mouse {
+    color: #5757e0;
+
+}
+
+#down {
+    color: #5757e0;
+}
+
+.a:hover {
+    color: #5757e0;
+    cursor: pointer;
+
+}
+
+#button1:hover {
+    background-color: #3232dc;
+    cursor: pointer;
+}
+
+#scroll:hover {
+    font-size: 17px;
+    transition: opacity 0.8s;
+    cursor: pointer;
+}
+
+.navtext {
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    margin: 0;
+    font-weight: bold;
+    font-size: 2.25rem;
+
+
+
+}
+
+.navtext1 {
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    margin: 0;
+    color: #6a6a7c;
+}
+
+.sectionabout {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 50px;
+
+
+
+}
+
+.me2 {
+    height: 250px;
+    border-radius: 122px;
+    margin-top: -130px;
+}
+
+.abouttext {
+    font-family: "DM Sans", sans-serif;
+    /* width: 300px; */
+    font-size: 18px;
+    /* margin-bottom: 315px; */
+    color: #6a6a7c;
+    text-align: initial;
+    /* margin-left:-80px; */
+
+
+
+}
+
+.textP {
+    /* height: 50px;
+    width: 300px; */
+    display: flex;
+    flex-direction: row;
+    /* margin-right: 300px; */
+    font-size: 28px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    gap: 50px;
+    margin-bottom: 100px;
+    /* padding-left:-100px; */
+
+}
+
+
+.para {
+    font-size: 15px;
+}
+
+.paratext {
+    margin-left: -3px;
+
+}
+
+.textArea {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+
+    width: 25%;
+    height: auto;
+}
+
+.cv1 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    padding-bottom: 23px;
+    background-color: #5757e0;
+    color: azure;
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    height: 59px;
+    width: 152px;
+    font-weight: 20px
+}
+
+.para {
+    color: #6a6a7c;
+    font-weight: lighter;
+}
+
+.skilltext {
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    margin: 0;
+    font-weight: bold;
+    font-size: 2.25rem;
+}
+
+.skilltext1 {
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    margin: 0;
+    color: #6a6a7c;
+
+}
+
+.sectionskill {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: center;
+}
+
+
+summary,
+ul {
+    list-style: none;
+
+}
+
+details[open] i.fa-arrow-up {
+    transform: rotate(180deg);
+}
+
+summary i.fa-arrow-up {
+    transition: 0.5s ease;
+}
+
+li {
+    margin-top: 40px;
+}
+
+.skillmain {
+    display: flex;
+    margin-left: -36px;
+    margin-top: 100px;
+    gap: 196px;
+}
+
+.drp1 {
+    font-size: 23px;
+    cursor: pointer;
+    font-family: "DM Sans", sans-serif;
+}
+
+.drp2 {
+    font-size: 23px;
+    cursor: pointer;
+    font-family: "DM Sans", sans-serif;
+}
+
+.pgrm-lng {
+    transition: 1s ease;
+    font-family: "DM Sans", sans-serif;
+}
+
+.ul1 {
+    font-family: "DM Sans", sans-serif;
+}
+
+.qualify {
+    font-size: 36px;
+    position: absolute;
+    top: 2100px;
+    font-family: "DM Sans", sans-serif;
+
+}
+
+.edu {
+    font-size: 14px;
+    padding: 14px;
+    color: #6a6a7c;
+}
+
+.education {
+    font-family: "DM Sans", sans-serif;
+    color: #5757e0;
+    font-size: 20px;
+    position: absolute;
+    top: 2200px;
+    font-weight: bold;
+
+
+}
+
+.sectionqualify {
+
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: center;
+}
+
+.form {
+    width: 600px;
+    height: 500px;
+    background-color: rgb(250, 249, 249);
+    margin-top: 148px;
+    position: relative;
+
+}
+
+.first {
+    width: 162px;
+    font-family: "DM Sans", sans-serif;
+    position: relative;
+    font-weight: bold;
+    padding-left: 22px;
+
+
+
+
+
+}
+
+.firstspan {
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    color: #6a6a7c;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+
+}
+
+.link {
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    color: #5757e0;
+    margin-top: 44px;
+    margin-left: 20px;
+    font-weight: bold;
+
+}
+.first2{
+     width: 162px;
+    font-family: "DM Sans", sans-serif;
+    position: relative;
+    font-weight: bold;
+    padding-left: 22px;
+    bottom: -315px;
+
+
+}
+.link2{
+      font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    color: #5757e0;
+    margin-top: 44px;
+    margin-left: 20px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 10px;
+    
+
+}
+.firstspan1{
+      font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    color: #6a6a7c;
+    position: absolute;
+    top: 30px;
+
+
+}
+.firstspan2{
+        font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    color: #6a6a7c;
+      position: absolute;
+  top: 0; 
+  right: 0; 
+  margin-top: 24px;
+
+
+}
+.link3{
+       font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    color: #5757e0;
+    margin-top: 247px;
+    margin-right: 78px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+.first3{
+         width: 162px;
+    font-family: "DM Sans", sans-serif;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    font-weight: bold;
+    padding-left: 0px;
+    margin-top: 184px;
+    
+
+}
+.headproject{
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    margin: 0;
+    font-weight: bold;
+    font-size: 2.25rem;
+}
+.projecttext1{
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    margin: 0;
+    color: #6a6a7c;
+}
+.sectionproject{
+     width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+     /* justify-content: center; */
+     align-items: center;
+    margin-top: 50px;
+   
+
+}
+
+.headcontact{
+      text-align: center;
+    font-family: "DM Sans", sans-serif;
+    margin: 0;
+    font-weight: bold;
+    font-size: 2.25rem;
+
+}
+.Contacttext{
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    margin: 0;
+    color: #6a6a7c;
+
+}
+.sectioncontact{
+    width: 100%;
+    height: 100vh;
+     display: flex;
+     flex-direction: column;
+     
+    }
+.maindiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    margin-top: 70px;
+    gap: 100px;
+
+}
+.childiv{
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+   
+}
+.phone{
+ color: #5757e0;
+}
+.copara{
+         font-size: 14px;
+     color: #6a6a7c;
+     font-weight: lighter;
+}
+.nametext{
+    width: 372px;
+    height: 76px;
+    border-radius: 10px;
+    border-color: #cbcbff;
+   
+ 
+}
+.maindiv2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    margin-top: 70px;
+    gap: 100px;
+}
+.childiv2{
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+   
+}
+.maindiv3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    margin-top: 70px;
+    gap: 100px;
+}
+.childiv3{
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+   
+}
+
+
+input{
+    border: none;
+    background-color: #b3b3dfab;
+    text-indent: 8px;
+}
+.sendmsg{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    padding-bottom: 23px;
+    background-color: #5757e0;
+    color: azure;
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    height: 59px;
+    width: 152px;
+    margin-left: 695px;
+    margin-top: 25px;
+    font-weight: 20px
+    
+
+}
+.sectionend{
+     width: 100%;
+     height: 40vh;
+     display: flex;
+     flex-direction: column;
+     background-color: #5757e0;
+     margin-bottom: -24px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     box-sizing: border-box;
+   
+}
+.last{
+      font-family: "DM Sans", sans-serif;
+      color: white;
+
+}
+.last1{
+    font-size: 26px;
+}
+.seclast{
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+    color: white;
+    width: 165px;
+
+}
+.paraend{
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    color: white;
+
+    
+}
+.alpha{
+    font-size: 17px;
+    font-family: "DM Sans", sans-serif;
+    color: white;
+    gap: 130px;
+    margin-top: 29px;
+
+}
+.insta{
+    color: white;
+    size: 15px;
+    margin-top: 29px;
+}
+.login{
+    width: 300px;
+   
+}
+.hostinger{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "DM Sans", sans-serif;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+.hostinger1{
+      font-size: 17px;
+    font-family: "DM Sans", sans-serif;
+    color: #6a6a7c;
+    margin-top: 10px;
+    margin-right: 133px;
+
+}
+.git1{
+ display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 19px;
+    padding-bottom: 23px;
+    background-color: #5757e0;
+    color: azure;
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+    border-radius: 18px;
+    font-weight: bold;
+    border: none;
+    height: 59px;
+    width: 190px;
+    margin-left: -280px;
+    margin-top: 25px;
+    font-weight: 20px
+}
+.sendmsg:hover{
+    background-color:#3232dc;
+    cursor: pointer;
+
+}
+.cv1:hover{
+background-color:#3232dc;
+cursor: pointer;
+}
+.link:hover{
+    cursor: pointer;
+    gap: 10px;
+    font-size: 15px;
+    transform: 0.1s;
+
+
+}
+.link2:hover{
+    cursor: pointer;
+    gap: 10px;
+    font-size: 15px;
+    transform: 0.1s;
+
+
+}
+.link3:hover{
+    cursor: pointer;
+    gap: 10px;
+    font-size: 15px;
+    transform: 0.1s;
+
+
+}
+.git1:hover{
+background-color:#3232dc;
+cursor: pointer;
+
+}
+.nametext:active{
+    opacity:0.4;
+    border: 0;
+    
+}
+.alpha:hover{
+    cursor: pointer;
+}
+#a:active{
+    color: #3232dc;
+}
+.insta:hover{
+    cursor:pointer;
+}
+
