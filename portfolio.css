@@ -1,8 +1,8 @@
-
-*{
+* {
     margin: 0;
     box-sizing: border-box;
 }
+
 .div1 {
     display: flex;
     height: 50px;
@@ -13,19 +13,23 @@
     top: 0;
     z-index: 99;
     background-color: white;
+    white-space: nowrap;
 
 
 
 }
-a{
+
+a {
     text-decoration: none;
 
 }
-.fa-solid fa-computer-mouse:active{
+
+.fa-solid fa-computer-mouse:active {
     background-color: #3232dc;
-    
+
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
 
@@ -40,7 +44,8 @@ html{
     margin-block-end: 10px;
     color: black;
 }
-#a:hover{
+
+#a:hover {
     color: #5757e0;
 }
 
@@ -89,7 +94,6 @@ html{
     width: 152px;
     margin: 25px;
     font-weight: 20px
-    
 }
 
 #first {
@@ -436,8 +440,9 @@ li {
     font-weight: bold;
 
 }
-.first2{
-     width: 162px;
+
+.first2 {
+    width: 162px;
     font-family: "DM Sans", sans-serif;
     position: relative;
     font-weight: bold;
@@ -446,8 +451,9 @@ li {
 
 
 }
-.link2{
-      font-size: 14px;
+
+.link2 {
+    font-size: 14px;
     font-family: "DM Sans", sans-serif;
     color: #5757e0;
     margin-top: 44px;
@@ -455,11 +461,12 @@ li {
     font-weight: bold;
     position: absolute;
     bottom: 10px;
-    
+
 
 }
-.firstspan1{
-      font-size: 14px;
+
+.firstspan1 {
+    font-size: 14px;
     font-family: "DM Sans", sans-serif;
     color: #6a6a7c;
     position: absolute;
@@ -467,19 +474,21 @@ li {
 
 
 }
-.firstspan2{
-        font-size: 14px;
+
+.firstspan2 {
+    font-size: 14px;
     font-family: "DM Sans", sans-serif;
     color: #6a6a7c;
-      position: absolute;
-  top: 0; 
-  right: 0; 
-  margin-top: 24px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 24px;
 
 
 }
-.link3{
-       font-size: 14px;
+
+.link3 {
+    font-size: 14px;
     font-family: "DM Sans", sans-serif;
     color: #5757e0;
     margin-top: 247px;
@@ -490,8 +499,9 @@ li {
     right: 0;
 
 }
-.first3{
-         width: 162px;
+
+.first3 {
+    width: 162px;
     font-family: "DM Sans", sans-serif;
     position: absolute;
     right: 0px;
@@ -499,57 +509,63 @@ li {
     font-weight: bold;
     padding-left: 0px;
     margin-top: 184px;
-    
+
 
 }
-.headproject{
+
+.headproject {
     text-align: center;
     font-family: "DM Sans", sans-serif;
     margin: 0;
     font-weight: bold;
     font-size: 2.25rem;
 }
-.projecttext1{
+
+.projecttext1 {
     text-align: center;
     font-family: "DM Sans", sans-serif;
     margin: 0;
     color: #6a6a7c;
 }
-.sectionproject{
-     width: 100%;
+
+.sectionproject {
+    width: 100%;
     height: 70vh;
     display: flex;
     flex-direction: column;
-     /* justify-content: center; */
-     align-items: center;
+    /* justify-content: center; */
+    align-items: center;
     margin-top: 50px;
-   
+
 
 }
 
-.headcontact{
-      text-align: center;
+.headcontact {
+    text-align: center;
     font-family: "DM Sans", sans-serif;
     margin: 0;
     font-weight: bold;
     font-size: 2.25rem;
 
 }
-.Contacttext{
+
+.Contacttext {
     text-align: center;
     font-family: "DM Sans", sans-serif;
     margin: 0;
     color: #6a6a7c;
 
 }
-.sectioncontact{
+
+.sectioncontact {
     width: 100%;
     height: 100vh;
-     display: flex;
-     flex-direction: column;
-     
-    }
-.maindiv{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.maindiv {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -561,29 +577,34 @@ li {
     gap: 100px;
 
 }
-.childiv{
+
+.childiv {
     display: flex;
     flex-direction: column;
     width: 170px;
-   
+
 }
-.phone{
- color: #5757e0;
+
+.phone {
+    color: #5757e0;
 }
-.copara{
-         font-size: 14px;
-     color: #6a6a7c;
-     font-weight: lighter;
+
+.copara {
+    font-size: 14px;
+    color: #6a6a7c;
+    font-weight: lighter;
 }
-.nametext{
+
+.nametext {
     width: 372px;
     height: 76px;
     border-radius: 10px;
     border-color: #cbcbff;
-   
- 
+
+
 }
-.maindiv2{
+
+.maindiv2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -594,13 +615,15 @@ li {
     margin-top: 70px;
     gap: 100px;
 }
-.childiv2{
+
+.childiv2 {
     display: flex;
     flex-direction: column;
     width: 170px;
-   
+
 }
-.maindiv3{
+
+.maindiv3 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -611,20 +634,28 @@ li {
     margin-top: 70px;
     gap: 100px;
 }
-.childiv3{
+
+.childiv3 {
     display: flex;
     flex-direction: column;
     width: 170px;
-   
+
 }
 
 
-input{
+input {
     border: none;
     background-color: #b3b3dfab;
     text-indent: 8px;
 }
-.sendmsg{
+#icon{
+   
+    display: none;
+
+}
+
+
+.sendmsg {
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -642,45 +673,49 @@ input{
     margin-left: 695px;
     margin-top: 25px;
     font-weight: 20px
-    
+}
+
+.sectionend {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #5757e0;
+    margin-bottom: -24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-sizing: border-box;
 
 }
-.sectionend{
-     width: 100%;
-     height: 40vh;
-     display: flex;
-     flex-direction: column;
-     background-color: #5757e0;
-     margin-bottom: -24px;
-     display: flex;
-     flex-direction: row;
-     justify-content: space-evenly;
-     box-sizing: border-box;
-   
-}
-.last{
-      font-family: "DM Sans", sans-serif;
-      color: white;
+
+.last {
+    font-family: "DM Sans", sans-serif;
+    color: white;
 
 }
-.last1{
+
+.last1 {
     font-size: 26px;
 }
-.seclast{
+
+.seclast {
     font-size: 16px;
     font-family: "DM Sans", sans-serif;
     color: white;
     width: 165px;
 
 }
-.paraend{
+
+.paraend {
     font-size: 14px;
     font-family: "DM Sans", sans-serif;
     color: white;
 
-    
+
 }
-.alpha{
+
+.alpha {
     font-size: 17px;
     font-family: "DM Sans", sans-serif;
     color: white;
@@ -688,32 +723,37 @@ input{
     margin-top: 29px;
 
 }
-.insta{
+
+.insta {
     color: white;
     size: 15px;
     margin-top: 29px;
 }
-.login{
+
+.login {
     width: 300px;
-   
+
 }
-.hostinger{
+
+.hostinger {
     font-size: 20px;
     font-weight: bold;
     font-family: "DM Sans", sans-serif;
     margin-top: 50px;
     margin-right: 200px;
 }
-.hostinger1{
-      font-size: 17px;
+
+.hostinger1 {
+    font-size: 17px;
     font-family: "DM Sans", sans-serif;
     color: #6a6a7c;
     margin-top: 10px;
     margin-right: 133px;
 
 }
-.git1{
- display: flex;
+
+.git1 {
+    display: flex;
     justify-content: center;
     gap: 10px;
     padding: 19px;
@@ -731,24 +771,19 @@ input{
     margin-top: 25px;
     font-weight: 20px
 }
-.sendmsg:hover{
-    background-color:#3232dc;
+
+.sendmsg:hover {
+    background-color: #3232dc;
     cursor: pointer;
 
 }
-.cv1:hover{
-background-color:#3232dc;
-cursor: pointer;
-}
-.link:hover{
+
+.cv1:hover {
+    background-color: #3232dc;
     cursor: pointer;
-    gap: 10px;
-    font-size: 15px;
-    transform: 0.1s;
-
-
 }
-.link2:hover{
+
+.link:hover {
     cursor: pointer;
     gap: 10px;
     font-size: 15px;
@@ -756,7 +791,8 @@ cursor: pointer;
 
 
 }
-.link3:hover{
+
+.link2:hover {
     cursor: pointer;
     gap: 10px;
     font-size: 15px;
@@ -764,23 +800,240 @@ cursor: pointer;
 
 
 }
-.git1:hover{
-background-color:#3232dc;
-cursor: pointer;
+
+.link3:hover {
+    cursor: pointer;
+    gap: 10px;
+    font-size: 15px;
+    transform: 0.1s;
+
 
 }
-.nametext:active{
-    opacity:0.4;
+
+.git1:hover {
+    background-color: #3232dc;
+    cursor: pointer;
+
+}
+
+.nametext:active {
+    opacity: 0.4;
     border: 0;
-    
+
 }
-.alpha:hover{
+
+.alpha:hover {
     cursor: pointer;
 }
-#a:active{
+
+#a:active {
     color: #3232dc;
 }
-.insta:hover{
-    cursor:pointer;
+
+.insta:hover {
+    cursor: pointer;
+}
+
+/* tablet */
+@media(max-width: 1024px) {
+
+
+    #div2 {
+        margin-left: 30px;
+        margin-top: 4px;
+    }
+
+    #div4 {
+        margin-left: 101px;
+    }
+
+    #me {
+        margin-left: -58px;
+    }
+
+    #div3 {
+        margin-left: 150px;
+        margin-top: 0;
+        background-color: white;
+    }
+
+    .me2 {
+        margin-right: 66px;
+        margin-top: -225px;
+
+    }
+
+    .paratext {
+        margin-left: -17px;
+        margin-top: -23px;
+    }
+
+    .cv1 {
+        margin-top: -91px;
+        margin-left: -24px;
+    }
+
+    .textP {
+        margin-left: -20px;
+        margin-top: 11px;
+    }
+
+    .sendmsg {
+        margin-left: 661px;
+    }
+
+
+
+
+
+}
+
+/* tablet */
+@media(max-width: 768px) {
+
+#div3{
+    display: none;
+   margin-left: 100px;
+   column-gap: 15px;
+}
+#me{
+    height: 190px;
+    margin-top:112px;
+}
+#button1{
+    margin-left: -9px;
+    font-size: 10px;
+    height: 45px;
+    width: 114px;
+    padding: 17px;
+}
+.down{
+    display: none;
+}
+#head {
+    font-size: 30px;
+}
+ .navtext{
+        font-size: 2.00rem;
+ }
+ .abouttext{
+    font-size: 14px;
+ }
+ 
+
+.me2 {
+    height: 230px;
+    margin-right: 70px;
+
+
+}
+ .cv1{
+    padding: 13px;
+    font-size: 10px;
+    height: 40px;
+    width: 120px;
+   }
+   .sendmsg{
+    margin-left: 520px;
+    padding: 14px;
+    font-size: 10px;
+    height: 40px;
+    width: 125px;
+   }
+   .skilltext{
+        font-size: 2.00rem;
+   }
+   .qualify{
+    font-weight: bold;
+    font-size: 31px;
+   }
+   .edu{
+        font-size: 12px;
+   }
+   .headproject{
+    font-size: 2.00rem;
+   }
+   .git1{
+    height: 40px;
+    width: 157px;
+    padding: 14px;
+    font-size: 9px;
+
+   }
+   .headcontact{
+    font-size: 2.00rem;
+   }
+   .sectionend{
+    height: 30vh;
+   }
+   .drp1 {
+    font-size: 18px;
+}
+.drp2 {
+    font-size: 18px;
+}
+.education {
+    font-size: 14px;
+}
+.nametext{
+    width: 280px;
+}
+}
+
+/* phones */
+@media(max-width: 320px) {
+    #inside {
+       
+        display:flex;
+        flex-direction: column;
+        padding-top: 156px;
+        background-color: cyan;
+
+    }
+
+    #assabh {
+        font-size: 24px;
+    }
+
+    #para {
+        font-size: 29px;
+
+    }
+
+    #first {
+        font-size: 25px;
+    }
+
+    #head {
+        width: 900px;
+    }
+   .num1{
+    font-size: 10px;
+   }
+   .textP{
+    font-size: 25px;
+   }
+   #icon{
+    display: flex;
+   }
+   #div3{
+    display: none;
+
+   }
+   
+  
+}
+@media only screen and (max-width: 1250px) and (min-width: 789px) {
+    #div2 {
+    margin-left: 70px;
+}
+#first{
+    margin-right: 100px;
+}
+#button1{
+    margin-left:-7px;
+
+}
+
 }
 
